@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceInsightMasterConfiguration
+	AppVer="4.00.0085"
+	AppVerMinReader="4.00.0032"
+	>
+	<!-- This is a Master configuration file. -->
+	<!-- It tells Source Insight where to store and get configuration settings. -->
+
+	<!-- Options: -->
+	<!-- If OverrideWithFile contains a file name, then all config parts are retained in that one file. -->
+	<!-- If OverrideWidthFile is '0' or empty, then ConfigurationParts section is used. -->
+	<Options OverrideWithFile="config_all.xml" />
+
+	<!-- ConfigurationParts tells Source Insight where to store and get individual parts -->
+	<!-- of the configuration. Each element contains a file name attribute. -->
+	<!-- The same file can appear in multiple parts, which means the file will -->
+	<!-- contains multiple parts. -->
+
+	<!-- Special Values:     -->
+	<!-- Prefix with 'project_source:' the file is relative to the project source directory. -->
+	<!-- Prefix with 'project_data:' the file is relative to the project data directory. -->
+	<ConfigurationParts>
+		<GeneralPreferences file="config_general.xml" />
+		<DisplayPreferences file="config_display.xml" />
+		<EditingPreferences file="config_editing.xml" />
+		<SyntaxFormatting file="config_syntaxformatting.xml" />
+		<SyntaxDecorations file="config_syntaxdecorations.xml" />
+		<DisplayColors file="config_displaycolors.xml" />
+		<FilePreferences file="config_fileprefs.xml" />
+		<LookupPreferences file="config_lookupprefs.xml" />
+		<Menus file="config_menus.xml" />
+		<Keymaps file="config_keymaps.xml" />
+		<CustomCommands file="config_customcommands.xml" />
+		<FileTypes file="config_filetypes.xml" />
+		<Styles file="config_styles.xml" />
+		<FTPSites file="config_ftpsites.xml" />
+		<RemoteAccess file="config_remoteaccess.xml" />
+		<ProjectSync file="config_projectsync.xml" />
+		<ProjectDefaults file="config_projectdefaults.xml" />
+		<Logging file="config_logging.xml" />
+		<Languages file="config_languages.xml" />
+		<ParsingOptions file="config_parsing.xml" />
+		<Search file="config_search.xml" />
+		<SearchWeb file="config_websearch.xml" />
+		<Toolbars file="config_toolbars.xml" />
+		<PrintPageSetup file="config_pagesetup.xml" />
+		<ProjectReport file="config_projectreport.xml" />
+		<SymbolPane file="config_symbolpane.xml" />
+		<ImportLibs file="config_importlibs.xml" />
+		<ParseConditions file="config_parseconditions.xml" />
+		<SourceFormatter file="config_sourceformatter.xml" />
+		<HtmlExport file="config_htmlexport.xml" />
+		<BookmarkWindow file="config_bookmarkwindow.xml" />
+		<SnippetWindow file="config_snippetwindow.xml" />
+		<ClipWindow file="config_clipwindow.xml" />
+		<ContextWindow file="config_contextwindow.xml" />
+		<DirectoryCompareWindow file="config_dircompare.xml" />
+		<FileCompareWindow file="config_filecompare.xml" />
+		<ProjectFileWindow file="config_projfilewindow.xml" />
+		<ProjectFileTypeWindow file="config_projfiletypewindow.xml" />
+		<ProjectFolderWindow file="config_projfolderwindow.xml" />
+		<ProjectSymbolWindow file="config_projsymbolwindow.xml" />
+		<ProjectSymbolTypeWindow file="config_projsymboltypewindow.xml" />
+		<WindowListWindow file="config_windowlistwindow.xml" />
+		<RelationWindow file="config_relationwindow.xml" />
+		<FTPWindow file="config_ftpwindow.xml" />
+	</ConfigurationParts>
+</SourceInsightMasterConfiguration>
