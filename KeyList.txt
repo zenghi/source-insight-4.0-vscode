@@ -1,0 +1,546 @@
+Commands                                  :  Key Assignments
+
+Application: About Source Insight...      :  
+Application: Check for Updates...         :  
+Application: Create Bookmarks from Relat  :  
+Application: Deactivate License...        :  
+Application: Exit                         :  Alt+F4
+Application: Exit and Suspend             :  
+Application: Exit Windows                 :  
+Application: Lock Context Window          :  
+Application: Lock File Compare Window     :  
+Application: Lock Relation Window         :  
+Application: Manage License...            :  
+Application: Mono Font View               :  Alt+F12
+Application: Ordering Information...      :  
+Application: Print Relation Window...     :  
+Application: Redraw Screen                :  Ctrl+Alt+Space
+Application: Refresh Relation Window      :  
+Application: Restart Windows              :  
+Application: Run Macro                    :  
+Application: Setup Common Projects...     :  
+Application: Show in Relation Window      :  
+Application: Source Insight Website       :  
+Application: Touch All Files in Relation  :  
+Application: Unimplemented Command        :  
+Build: Build Project                      :  
+Build: Clean Build                        :  
+Build: Compile File                       :  
+Build: Run Project                        :  
+Custom Cmd: Astyle_Mode                   :  
+Custom Cmd: Build Project                 :  
+Custom Cmd: Check In                      :  
+Custom Cmd: Check Out                     :  
+Custom Cmd: Clean Build                   :  
+Custom Cmd: Command Shell                 :  
+Custom Cmd: Compile File                  :  
+Custom Cmd: cp wifi to xc                 :  
+Custom Cmd: Explore Project Folder        :  
+Custom Cmd: explorer now                  :  
+Custom Cmd: Preview in Web Browser        :  
+Custom Cmd: Run Project                   :  
+Custom Cmd: Search In Folder              :  
+Custom Cmd: Sort File                     :  
+Custom Cmd: Sort Selection                :  
+Custom Cmd: start ssh ubuntu              :  
+Custom Cmd: Sync File to Source Control   :  
+Custom Cmd: Sync to Source Control Proje  :  
+Custom Cmd: test                          :  
+Custom Cmd: TUMP                          :  
+Custom Cmd: Undo Check Out                :  
+Custom Cmd: Windows Explorer              :  
+Custom Cmd: ZENGHI BUILD WIFI             :  
+Custom Cmd: ZENGHI COM6                   :  
+Custom Cmd: ZENGHI cp wifi to op          :  
+Custom Cmd: ZENGHI ssh ub cmder           :  
+Custom Cmd: ZENGHI SSH UB CMDER POWER     :  
+Custom Cmd: ZENGHI ssh ubuntu             :  
+Edit: Back Tab                            :  Shift+Tab
+Edit: Backspace                           :  BackSpace, Shift+BackSpace
+Edit: Browser Mode                        :  
+Edit: Calculate                           :  
+Edit: Clip Window Options...              :  
+Edit: Comment Lines                       :  
+Edit: Complete Snippet                    :  Ctrl+E
+Edit: Complete Symbol                     :  Ctrl+8
+Edit: Copy                                :  Ctrl+C, L+R Click
+Edit: Copy Line                           :  Ctrl+K
+Edit: Copy Line Right                     :  Ctrl+Shift+K
+Edit: Copy To Clip...                     :  Ctrl+Del
+Edit: Cut                                 :  Ctrl+X, Shift+Del
+Edit: Cut Line                            :  Ctrl+U
+Edit: Cut Line Left                       :  
+Edit: Cut Line Right                      :  Ctrl+;
+Edit: Cut Selection or Paste              :  
+Edit: Cut To Clip...                      :  Ctrl+Shift+X
+Edit: Cut Word                            :  Ctrl+,
+Edit: Cut Word Left                       :  
+Edit: Delete All Clips                    :  
+Edit: Delete Character                    :  Del, (KeyPad) Del
+Edit: Delete Line                         :  
+Edit: Drag Line Down                      :  Ctrl+Down
+Edit: Drag Line Down More                 :  
+Edit: Drag Line Up                        :  Ctrl+Up
+Edit: Drag Line Up More                   :  
+Edit: Duplicate                           :  
+Edit: Enter                               :  Enter, Enter, (KeyPad) Enter
+Edit: Expand Text Variables               :  
+Edit: Indent Left                         :  F9
+Edit: Indent Right                        :  F10
+Edit: Insert ASCII...                     :  
+Edit: Insert Class Function Prototypes    :  
+Edit: Insert File...                      :  
+Edit: Insert GUID                         :  
+Edit: Insert Line                         :  Ctrl+I
+Edit: Insert Line Before Next             :  Ctrl+Space
+Edit: Insert New Line                     :  
+Edit: Join Lines                          :  Ctrl+J
+Edit: Lowercase                           :  
+Edit: New Clip...                         :  
+Edit: Paste                               :  Ctrl+V, Shift+Ins
+Edit: Paste From Clip...                  :  Ctrl+Ins
+Edit: Paste Line                          :  Ctrl+P
+Edit: Play Recording                      :  Ctrl+F3
+Edit: Redo                                :  Ctrl+Y
+Edit: Redo All                            :  
+Edit: Reform Paragraph                    :  
+Edit: Rename or Move...                   :  
+Edit: Renumber...                         :  Ctrl+R
+Edit: Repeat Typing                       :  Ctrl+\
+Edit: Replace...                          :  Ctrl+H
+Edit: Restore Lines                       :  Alt+D
+Edit: Simple Tab                          :  Ctrl+Alt+Tab
+Edit: Slide In Text...                    :  
+Edit: Smart Rename...                     :  Ctrl+'
+Edit: Smart Tab                           :  
+Edit: Spaces To Tabs                      :  
+Edit: Start Recording                     :  Ctrl+F1
+Edit: Stop Recording                      :  Ctrl+F2
+Edit: Tab                                 :  Tab
+Edit: Tabs To Spaces                      :  
+Edit: Toggle Case                         :  
+Edit: Toggle Insert Mode                  :  Ins
+Edit: Trim Whitespace                     :  
+Edit: Un-Comment Lines                    :  
+Edit: Undo                                :  Ctrl+Z, Alt+BackSpace
+Edit: Undo All                            :  
+Edit: Uppercase                           :  
+File: Browse Files...                     :  
+File: Checkpoint                          :  
+File: Checkpoint All                      :  
+File: Close                               :  Ctrl+W
+File: Close All                           :  Ctrl+Shift+W
+File: Close Other Windows                 :  
+File: Copy File Path                      :  
+File: Delete File...                      :  
+File: Export File As HTML...              :  
+File: Load File...                        :  
+File: Load Workspace...                   :  
+File: New                                 :  Ctrl+N
+File: Next File...                        :  Ctrl+Shift+N
+File: Open As Encoding...                 :  
+File: Open Backup File...                 :  
+File: Open Last                           :  
+File: Open...                             :  Ctrl+O
+File: Print...                            :  
+File: Reload As Encoding...               :  
+File: Reload File                         :  Ctrl+Shift+O
+File: Reload Modified Files               :  
+File: Restore File                        :  
+File: Save                                :  Ctrl+S
+File: Save A Copy...                      :  
+File: Save All                            :  Ctrl+Alt+A
+File: Save All Quietly                    :  
+File: Save As Encoding...                 :  
+File: Save As...                          :  Ctrl+Shift+S
+File: Save New Backup File                :  
+File: Save Selection...                   :  
+File: Save Workspace...                   :  
+File: Show File in Explorer...            :  
+File: Show File Status                    :  Shift+F10
+FTP: FTP Browser Options                  :  
+Help: Help Mode                           :  
+Help: Help...                             :  
+Help: HTML Help...                        :  
+Help: SDK Help...                         :  
+Help: Setup HTML Help                     :  
+Help: Setup WinHelp File                  :  
+Internal Test                             :  
+Macro: AddMacroComment                    :  Alt+4
+Macro: AddPromblemNo                      :  
+Macro: AutoConvertUpperOrLow              :  Alt+
+Macro: AutoExpand                         :  Ctrl+Enter
+Macro: AutoInsertTraceInfoInBuf           :  
+Macro: AutoInsertTraceInfoInPrj           :  
+Macro: Auto_printf_var                    :  Ctrl+B
+Macro: BlockCommandProc                   :  
+Macro: BlockComment                       :  Alt+Q
+Macro: ClearPrombleNo                     :  
+Macro: ComentCPPtoC                       :  
+Macro: ComentCPPtoC                       :  
+Macro: ComentLine                         :  
+Macro: CommentSelStr                      :  
+Macro: ConfigureSystem                    :  
+Macro: ConvertLower                       :  
+Macro: ConvertUpper                       :  
+Macro: CreateNewHeaderFile                :  
+Macro: DelCompoundStatement               :  
+Macro: ExpandBraceLarge                   :  Alt+[
+Macro: ExpandBraceLittle                  :  
+Macro: ExpandBraceMid                     :  
+Macro: FileHeaderCreate                   :  
+Macro: FormatLine                         :  
+Macro: FunctionHeaderCreate               :  Alt+C
+Macro: GetFullDirName                     :  Alt+1
+Macro: GetFullFileName                    :  Alt+2
+Macro: GetLinux_FullDirName               :  
+Macro: GetProgramInfo                     :  
+Macro: GetVersion                         :  
+Macro: Get_C_FileName                     :  Alt+F3
+Macro: HeaderFileCreate                   :  
+Macro: IfdefBogus                         :  
+Macro: IfdefNever                         :  
+Macro: IfdefReview                        :  
+Macro: InsertCase                         :  
+Macro: InsertCPlusPlus                    :  
+Macro: InsertDo                           :  
+Macro: InsertElse                         :  
+Macro: InsertFileHeader                   :  
+Macro: InsertFor                          :  
+Macro: InsertFuncName                     :  
+Macro: InsertHeader                       :  
+Macro: InsertIf                           :  
+Macro: InsertIfdef                        :  
+Macro: InsertPredefIf                     :  
+Macro: InsertReviseAdd                    :  
+Macro: InsertReviseDel                    :  
+Macro: InsertReviseMod                    :  
+Macro: InsertSwitch                       :  
+Macro: InsertTraceInfo                    :  
+Macro: InsertWhile                        :  
+Macro: Insert_2805blue_debug              :  
+Macro: Insert_debug                       :  Alt+`
+Macro: InsIfdef                           :  Alt+W
+Macro: InsIfndef                          :  Alt+E
+Macro: JumpAnywhere                       :  
+Macro: KillLine                           :  
+Macro: MakeComment                        :  Ctrl+F11
+Macro: MergeString                        :  
+Macro: MultiLineComment                   :  Alt+3
+Macro: OutputSiblingSymbols               :  
+Macro: PasteKillLine                      :  
+Macro: RemoveCurBufTraceInfo              :  
+Macro: RemovePrjTraceInfo                 :  
+Macro: RemoveTraceInfo                    :  
+Macro: ReplaceBufTab                      :  
+Macro: ReplaceTabInProj                   :  
+Macro: ReturnTrueOrFalse                  :  
+Macro: SearchBackward                     :  
+Macro: SearchForward                      :  
+Macro: UpdateFunctionList                 :  
+Menu: Activate Context Menu               :  
+Menu: Activate Edit Menu                  :  
+Menu: Activate File Menu                  :  
+Menu: Activate Help Menu                  :  Alt+H
+Menu: Activate Menu Bar                   :  
+Menu: Activate Options Menu               :  Alt+O
+Menu: Activate Project Menu               :  Alt+P
+Menu: Activate Search Menu                :  Alt+S
+Menu: Activate System Doc Menu            :  
+Menu: Activate System Menu                :  Alt+Space
+Menu: Activate Tools Menu                 :  Alt+T
+Menu: Activate View Menu                  :  Alt+V
+Menu: Activate Window Menu                :  
+Menu: Activate Work Menu                  :  Alt+K
+Menu: Arrange Windows                     :  
+Menu: File Type and Language              :  
+Menu: Insert Snippet                      :  
+Menu: Outlining                           :  
+Menu: Panels                              :  
+Menu: Recent Files                        :  
+Menu: Special Edit                        :  
+Menu: Toolbars                            :  
+Menu: Visual Theme                        :  
+Navigation: Activate Bookmark Window      :  
+Navigation: Beginning Of Line             :  Home
+Navigation: Beginning Of Selection        :  Ctrl+Alt+[
+Navigation: Blank Line Down               :  
+Navigation: Blank Line Up                 :  
+Navigation: Block Down                    :  Ctrl+Shift+]
+Navigation: Block Up                      :  Ctrl+Shift+[
+Navigation: Bookmark...                   :  Ctrl+M
+Navigation: Bottom Of File                :  Ctrl+End, Ctrl+(KeyPad) End
+Navigation: Bottom Of Window              :  (KeyPad) End
+Navigation: Cursor Down                   :  Down, (KeyPad) Down
+Navigation: Cursor Left                   :  Left, (KeyPad) Left
+Navigation: Cursor Right                  :  Right, (KeyPad) Right
+Navigation: Cursor Up                     :  Up, (KeyPad) Up
+Navigation: End Of Line                   :  End
+Navigation: End Of Selection              :  Ctrl+Alt+]
+Navigation: Function Down                 :  PgDn, (KeyPad) +
+Navigation: Function Up                   :  PgUp, (KeyPad) -
+Navigation: Go Back                       :  Alt+F1, Alt+,, Thumb 1 Click
+Navigation: Go Back Toggle                :  Alt+M
+Navigation: Go Forward                    :  Alt+., Thumb 2 Click, Alt+F2
+Navigation: Go To First Link              :  Ctrl+Shift+L
+Navigation: Go To Line...                 :  F5, Ctrl+G
+Navigation: Go To Next Change             :  Alt++, Alt+(KeyPad) +
+Navigation: Go To Next Link               :  Shift+F9, F2
+Navigation: Go To Next Reference Highlig  :  
+Navigation: Go To Previous Change         :  Alt+-, Alt+(KeyPad) -
+Navigation: Go To Previous Link           :  F1
+Navigation: Go To Previous Reference Hig  :  
+Navigation: Highlight References          :  
+Navigation: Jump To Link                  :  Ctrl+L
+Navigation: Jump To Match                 :  Alt+]
+Navigation: Make Column Selection         :  Alt+L Click
+Navigation: Page Down                     :  (KeyPad) PgDn
+Navigation: Page Up                       :  (KeyPad) PgUp
+Navigation: Paren Left                    :  Ctrl+9
+Navigation: Paren Right                   :  Ctrl+0
+Navigation: Parse Source Links...         :  
+Navigation: Scroll Half Page Down         :  Ctrl+PgDn, Ctrl+(KeyPad) PgDn, (KeyPad) *
+Navigation: Scroll Half Page Up           :  Ctrl+PgUp, Ctrl+(KeyPad) PgUp, (KeyPad) /
+Navigation: Scroll Left                   :  Alt+Left
+Navigation: Scroll Line Down              :  Alt+Down
+Navigation: Scroll Line Up                :  Alt+Up
+Navigation: Scroll Right                  :  Alt+Right
+Navigation: Select All                    :  Ctrl+A
+Navigation: Select Block                  :  Ctrl+-
+Navigation: Select Char Left              :  Shift+Left
+Navigation: Select Char Right             :  Shift+Right
+Navigation: Select Function or Symbol     :  
+Navigation: Select Line                   :  Shift+F6
+Navigation: Select Line Down              :  Shift+Down
+Navigation: Select Line Up                :  Shift+Up
+Navigation: Select Match                  :  Alt+=
+Navigation: Select Next Snippet Placehol  :  Ctrl+Shift+;
+Navigation: Select Page Down              :  Shift+PgDn, Shift+(KeyPad) PgDn
+Navigation: Select Page Up                :  Shift+PgUp, Shift+(KeyPad) PgUp
+Navigation: Select Paragraph              :  
+Navigation: Select Sentence               :  Shift+F7, Ctrl+.
+Navigation: Select To                     :  Shift+L Click
+Navigation: Select To End Of File         :  Ctrl+Shift+End
+Navigation: Select To End Of Line         :  Shift+End
+Navigation: Select To Start Of Line       :  Shift+Home
+Navigation: Select To Top Of File         :  Ctrl+Shift+Home
+Navigation: Select Word                   :  Shift+F5
+Navigation: Select Word Left              :  Ctrl+Shift+Left
+Navigation: Select Word Right             :  Ctrl+Shift+Right
+Navigation: Selection History...          :  Ctrl+Shift+M
+Navigation: Smart Beginning Of Line       :  
+Navigation: Smart End Of Line             :  
+Navigation: Toggle Extend Mode            :  
+Navigation: Top Of File                   :  Ctrl+Home, Ctrl+(KeyPad) Home
+Navigation: Top Of Window                 :  (KeyPad) Home
+Navigation: Word Fragment Left            :  
+Navigation: Word Fragment Right           :  
+Navigation: Word Left                     :  Ctrl+Left
+Navigation: Word Right                    :  Ctrl+Right
+Options: Advanced Options...              :  
+Options: Color Options...                 :  
+Options: Context Window Options...        :  
+Options: Create Command List              :  
+Options: Create Key List                  :  
+Options: Directory Compare Options        :  
+Options: Display Options...               :  
+Options: Edit Condition...                :  
+Options: Enable Event Handlers            :  
+Options: File Compare Window Options...   :  
+Options: File Options...                  :  
+Options: File Type Options...             :  Alt+Y
+Options: Folder Options...                :  
+Options: General Options...               :  
+Options: Key Assignments...               :  
+Options: Language Options...              :  
+Options: Language Properties...           :  
+Options: Load Configuration...            :  
+Options: Manage Visual Themes...          :  
+Options: Menu Assignments...              :  
+Options: New Relation Window              :  
+Options: Next Relation Window View        :  
+Options: Outlining Options...             :  
+Options: Page Setup...                    :  
+Options: Preferences...                   :  
+Options: Project File List Options...     :  
+Options: Project File Type Window Option  :  
+Options: Project Folder Browser Options.  :  
+Options: Project Settings...              :  
+Options: Project Symbol Category Window   :  
+Options: Project Symbol List Options...   :  
+Options: Relation Window Graph Options..  :  
+Options: Relation Window Options...       :  
+Options: Remote Options...                :  
+Options: Reset Scaling                    :  
+Options: Save Configuration...            :  
+Options: Scroll Bar Options...            :  
+Options: Searching Options...             :  
+Options: Sort Symbol Window               :  
+Options: Sort Symbols By Line             :  
+Options: Sort Symbols By Name             :  
+Options: Sort Symbols By Type             :  
+Options: Style Properties...              :  
+Options: Symbol Lookup Options...         :  
+Options: Symbol Window Options...         :  
+Options: Syntax Color...                  :  
+Options: Syntax Decorations...            :  
+Options: Syntax Formatting...             :  
+Options: Syntax Keyword List...           :  
+Options: Typing Options...                :  
+Options: Window List Options...           :  
+Options: Window Options...                :  
+Options: Window Tab Options...            :  
+Outline: Collapse                         :  
+Outline: Collapse All                     :  
+Outline: Expand                           :  
+Outline: Expand All                       :  
+Outline: Show Outlining                   :  
+Outline: Toggle Expansions                :  
+Project: Add and Remove Project Files...  :  
+Project: Add File List...                 :  
+Project: Add File...                      :  Alt+Shift+A
+Project: Close Project                    :  Alt+Shift+W
+Project: Copy Project...                  :  
+Project: Export Project File List...      :  
+Project: Export Project to HTML...        :  
+Project: New Project...                   :  Alt+Shift+N
+Project: Open Project Master File List..  :  
+Project: Open Project...                  :  Alt+Shift+P
+Project: Project Report...                :  
+Project: Rebuild Project...               :  
+Project: Remove File...                   :  Alt+Shift+R
+Project: Remove Project...                :  
+Project: Rename Project...                :  
+Project: Synchronize Files...             :  Alt+Shift+S
+Search: Incremental Search Backward...    :  
+Search: Incremental Search...             :  F12, Ctrl+,
+Search: Load Search String                :  
+Search: Replace Files...                  :  Ctrl+Shift+H
+Search: Search Backward                   :  F3
+Search: Search Backward for Selection     :  Shift+F3
+Search: Search Engines...                 :  
+Search: Search Files...                   :  Alt+F, Ctrl+Shift+F
+Search: Search Forward                    :  F4
+Search: Search Forward for Selection      :  Shift+F4
+Search: Search Project...                 :  
+Search: Search Results Options...         :  
+Search: Search Web...                     :  Ctrl+Alt+W
+Search: Search...                         :  Ctrl+F
+Source Control: Check In                  :  
+Source Control: Check Out                 :  
+Source Control: Sync File to Source Cont  :  
+Source Control: Sync to Source Control P  :  
+Source Control: Undo Check Out            :  
+Symbol: Browse Local File Symbols...      :  
+Symbol: Browse Project Symbols...         :  
+Symbol: Generate Call Tree...             :  
+Symbol: Import External Symbols for Curr  :  
+Symbol: Import External Symbols...        :  
+Symbol: Jump To Base Type                 :  Alt+0
+Symbol: Jump To Caller                    :  Ctrl+Alt+C
+Symbol: Jump To Definition                :  Ctrl+=
+Symbol: Jump To Prototype...              :  Alt+-
+Symbol: Lookup References...              :  Ctrl+/
+Symbol: Parse File Now                    :  
+Symbol: Project Symbols Dialog...         :  
+Symbol: Symbol Info...                    :  Ctrl+R Click (select), Alt+/
+Toolbar: Arrangement Toolbar              :  
+Toolbar: Browse Toolbar                   :  
+Toolbar: Build Toolbar                    :  
+Toolbar: Edit Toolbar                     :  
+Toolbar: File Toolbar                     :  
+Toolbar: Help Toolbar                     :  
+Toolbar: Layout Toolbar                   :  
+Toolbar: Main Toolbar                     :  
+Toolbar: Navigation Toolbar               :  
+Toolbar: Outline Toolbar                  :  
+Toolbar: Search Toolbar                   :  
+Toolbar: Source Control Toolbar           :  
+Toolbar: Symbols Toolbar                  :  
+Toolbar: View Toolbar                     :  
+Tools: Compare Files...                   :  
+Tools: Compare with Backup File...        :  
+Tools: Custom Commands...                 :  
+Tools: Reformat Source Code               :  
+Tools: Reformat Source Code Options...    :  
+Tools: Save Declaration File              :  
+View: Activate Clip Window                :  
+View: Activate FTP Browser                :  
+View: Activate Project File List          :  
+View: Activate Project Search Bar         :  Alt+Shift+P
+View: Activate Project Symbol List        :  F7, Alt+G
+View: Activate Project Window             :  
+View: Activate Relation Window            :  
+View: Activate Search Bar                 :  Alt+Shift+F
+View: Activate Search Results             :  
+View: Activate Snippet Window             :  Ctrl+Alt+S
+View: Activate Symbol Window              :  Alt+L
+View: Activate Window List                :  
+View: Bookmark Window                     :  
+View: Clear Highlights                    :  
+View: Clip Window                         :  
+View: Context Window                      :  
+View: Directory Compare                   :  
+View: File Compare                        :  
+View: File Search Bar                     :  
+View: FTP Browser                         :  
+View: Full Screen                         :  F11
+View: Highlight Word                      :  Shift+F8, F8
+View: Horizontal Scroll Bar               :  
+View: Line Numbers                        :  
+View: Load Layout A                       :  Ctrl+Shift+F1
+View: Load Layout B                       :  Ctrl+Shift+F2
+View: Load Layout C                       :  Ctrl+Shift+F3
+View: Load Layout D                       :  Ctrl+Shift+F4
+View: Load Layout...                      :  
+View: Overview                            :  
+View: Overview                            :  
+View: Overview                            :  
+View: Overview Options...                 :  
+View: Project File List                   :  
+View: Project File Types                  :  
+View: Project Folder Browser              :  
+View: Project Search Bar                  :  
+View: Project Symbol Categories           :  
+View: Project Symbol List                 :  
+View: Project Window                      :  Alt+F9
+View: Relation Window                     :  Alt+F10
+View: Reset Layout...                     :  
+View: Save Layout...                      :  
+View: Show Nesting Lines                  :  
+View: Show Relations                      :  
+View: Snippet Window                      :  
+View: Status Bar                          :  
+View: Symbol Window                       :  Alt+F8
+View: Tab Tray                            :  
+View: Vertical Enhanced Scroll Bar        :  
+View: Vertical Scroll Bar                 :  Alt+F7, Alt+F6
+View: Vertical Scroll Bar                 :  
+View: View Relation Horizontal Graph      :  
+View: View Relation Outline               :  
+View: View Relation Vertical Graph        :  
+View: Visible Spaces                      :  
+View: Visible Tabs                        :  
+View: Visible Tabs and Spaces             :  
+View: Window List                         :  
+View: Window Tabs                         :  
+Windows: Cascade Windows                  :  
+Windows: Close Window                     :  Ctrl+F4
+Windows: Last Window                      :  Ctrl+Tab, Ctrl+Shift+Tab
+Windows: Link All Windows                 :  
+Windows: Link Window...                   :  
+Windows: New Window                       :  Alt+F5
+Windows: Pick Window...                   :  
+Windows: Remove Special Window Color      :  
+Windows: Select Next Window               :  Shift+F2, Ctrl+F6
+Windows: Select Previous Window           :  Shift+F1
+Windows: Show Clipboard                   :  
+Windows: Special Window Color...          :  
+Windows: Split Window                     :  
+Windows: Sync File Windows                :  
+Windows: Tile Horizontal                  :  
+Windows: Tile One Window                  :  
+Windows: Tile Two Windows                 :  F6
+Windows: Tile Vertical                    :  
+Windows: Zoom Window                      :  Ctrl+F10
+
