@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SourceInsightConfiguration
-	AppVer="4.00.0084"
+	AppVer="4.00.0093"
 	AppVerMinReader="4.00.0032"
 	>
 	<!-- This is a Source Insight configuration file. -->
@@ -18,7 +18,7 @@
 		EnableEvents="0"
 		WinHelpPath=""
 		HTMLHelpPath=""
-		CheckForUpdates="1"
+		CheckForUpdates="0"
 		/>
 	<DisplayPreferences>
 		<GeneralDisplayOptions
@@ -42,7 +42,7 @@
 			MonoSpaces="1"
 			MonospaceTabs="1"
 			MaximizeNewWindows="1"
-			MonoFontView="0"
+			MonoFontView="1"
 			Gradients="1"
 			VisualThemes="1"
 			CompressLineHeights="0"
@@ -90,7 +90,7 @@
 			ShowChangeMarks="1"
 			ShowNestingLines="1"
 			ShowRefHighlights="0"
-			PercentScale="50"
+			PercentScale="10"
 			DefaultWidth="750"
 			UseTextColor="0"
 			UseBackColor="0"
@@ -199,7 +199,7 @@
 		ConfirmDelete="1"
 		BlockBinaryFiles="1"
 		OpenBackupsAsReadOnly="1"
-		DefaultFileFormat="2"
+		DefaultFileFormat="1"
 		DefaultEncoding="65001"
 		FileOpenAction="Project File List"
 		/>
@@ -443,225 +443,225 @@
 	</Menus>
 	<Keymaps>
 		<Main>
-			<item Command="AutoExpand" Keycode="(C)Enter" Allocated="1" />
-			<item Command="Go Forward" Keycode="(A)F2" />
-			<item Command="MakeComment" Keycode="(C)F11" Allocated="1" />
-			<item Command="Go To Previous Link" Keycode="F1" />
-			<item Command="Go To Next Link" Keycode="F2" />
-			<item Command="AutoConvertUpperOrLow" Keycode="(A)" Allocated="1" />
-			<item Command="Vertical Scroll Bar " Keycode="(A)F6" />
-			<item Command="Auto_printf_var" Keycode="(C)B" Allocated="1" />
-			<item Command="Insert_debug" Keycode="(A)`" Allocated="1" />
-			<item Command="MultiLineComment" Keycode="(A)3" Allocated="1" />
-			<item Command="InsIfndef" Keycode="(A)E" Allocated="1" />
-			<item Command="InsIfdef" Keycode="(A)W" Allocated="1" />
-			<item Command="GetFullFileName" Keycode="(A)2" Allocated="1" />
-			<item Command="GetFullDirName" Keycode="(A)1" Allocated="1" />
-			<item Command="FunctionHeaderCreate" Keycode="(A)C" Allocated="1" />
-			<item Command="ExpandBraceLarge" Keycode="(A)[" Allocated="1" />
-			<item Command="BlockComment" Keycode="(A)Q" Allocated="1" />
-			<item Command="AddMacroComment" Keycode="(A)4" Allocated="1" />
-			<item Command="Simple Tab" Keycode="(CA)Tab" />
-			<item Command="Back Tab" Keycode="(S)Tab" />
-			<item Command="Tab" Keycode="Tab" />
-			<item Command="Enter" Keycode="(N)Enter" />
-			<item Command="Enter" Keycode="Enter" />
-			<item Command="Enter" Keycode="Enter" />
-			<item Command="Make Column Selection" Keycode="(A)mouse(L)" />
-			<item Command="Select To" Keycode="(S)mouse(L)" />
-			<item Command="Copy" Keycode="mouse(LR)" />
-			<item Command="Redraw Screen" Keycode="(CA)Space" />
-			<item Command="Drag Line Down" Keycode="(C)Down" />
-			<item Command="Drag Line Up" Keycode="(C)Up" />
-			<item Command="Restore Lines" Keycode="(A)D" />
-			<item Command="Paste From Clip..." Keycode="(C)Ins" />
-			<item Command="Copy To Clip..." Keycode="(C)Del" />
-			<item Command="Cut To Clip..." Keycode="(CS)X" />
-			<item Command="Join Lines" Keycode="(C)J" />
-			<item Command="Insert Line Before Next" Keycode="(C)Space" />
-			<item Command="Cut Word" Keycode="(C)," />
-			<item Command="Cut Line Right" Keycode="(C);" />
-			<item Command="Insert Line" Keycode="(C)I" />
-			<item Command="Cut Line" Keycode="(C)U" />
-			<item Command="Paste Line" Keycode="(C)P" />
-			<item Command="Copy Line Right" Keycode="(CS)K" />
-			<item Command="Copy Line" Keycode="(C)K" />
-			<item Command="Delete Character" Keycode="(N)Del" />
-			<item Command="Delete Character" Keycode="Del" />
-			<item Command="Backspace" Keycode="(S)BackSpace" />
-			<item Command="Backspace" Keycode="BackSpace" />
-			<item Command="Synchronize Files..." Keycode="(AS)S" />
-			<item Command="Remove File..." Keycode="(AS)R" />
-			<item Command="Add File..." Keycode="(AS)A" />
-			<item Command="Close Project" Keycode="(AS)W" />
-			<item Command="Open Project..." Keycode="(AS)P" />
-			<item Command="New Project..." Keycode="(AS)N" />
-			<item Command="Incremental Search..." Keycode="(C)," />
-			<item Command="Complete Symbol" Keycode="(C)8" />
-			<item Command="Complete Snippet" Keycode="(C)E" />
-			<item Command="Smart Rename..." Keycode="(C)&apos;" />
-			<item Command="File Type Options..." Keycode="(A)Y" />
-			<item Command="Last Window" Keycode="(CS)Tab" />
-			<item Command="Last Window" Keycode="(C)Tab" />
-			<item Command="Symbol Info..." Keycode="(A)/" />
-			<item Command="Selection History..." Keycode="(CS)M" />
-			<item Command="Bookmark..." Keycode="(C)M" />
-			<item Command="Toggle Insert Mode" Keycode="Ins" />
-			<item Command="Jump To Caller" Keycode="(CA)C" />
-			<item Command="Jump To Base Type" Keycode="(A)0" />
-			<item Command="Jump To Prototype..." Keycode="(A)-" />
-			<item Command="Jump To Definition" Keycode="(C)=" />
-			<item Command="Go To First Link" Keycode="(CS)L" />
-			<item Command="Go To Next Link" Keycode="(S)F9" />
-			<item Command="Jump To Link" Keycode="(C)L" />
-			<item Command="Go To Line..." Keycode="(C)G" />
-			<item Command="Replace Files..." Keycode="(CS)H" />
-			<item Command="Replace..." Keycode="(C)H" />
-			<item Command="Activate Project Search Bar" Keycode="(AS)P" />
-			<item Command="Activate Search Bar" Keycode="(AS)F" />
-			<item Command="Search Web..." Keycode="(CA)W" />
-			<item Command="Lookup References..." Keycode="(C)/" />
-			<item Command="Search Files..." Keycode="(CS)F" />
-			<item Command="Renumber..." Keycode="(C)R" />
-			<item Command="Activate Symbol Window" Keycode="(A)L" />
-			<item Command="Activate Project Symbol List" Keycode="(A)G" />
-			<item Command="Reload File" Keycode="(CS)O" />
-			<item Command="Save As..." Keycode="(CS)S" />
-			<item Command="Save All" Keycode="(CA)A" />
-			<item Command="Save" Keycode="(C)S" />
-			<item Command="Next File..." Keycode="(CS)N" />
-			<item Command="Close All" Keycode="(CS)W" />
-			<item Command="Close" Keycode="(C)W" />
-			<item Command="Open..." Keycode="(C)O" />
-			<item Command="New" Keycode="(C)N" />
-			<item Command="Repeat Typing" Keycode="(C)\" />
-			<item Command="Go Forward" Keycode="mouse(T2)" />
-			<item Command="Go Back" Keycode="mouse(T1)" />
-			<item Command="Go Forward" Keycode="(A)." />
-			<item Command="Go Back" Keycode="(A)," />
-			<item Command="Go Back Toggle" Keycode="(A)M" />
-			<item Command="Beginning Of Selection" Keycode="(CA)[" />
-			<item Command="End Of Selection" Keycode="(CA)]" />
-			<item Command="Select Sentence" Keycode="(C)." />
-			<item Command="Block Down" Keycode="(CS)]" />
-			<item Command="Block Up" Keycode="(CS)[" />
-			<item Command="Paren Right" Keycode="(C)0" />
-			<item Command="Paren Left" Keycode="(C)9" />
-			<item Command="Jump To Match" Keycode="(A)]" />
-			<item Command="Go To Previous Change" Keycode="(AN)-" />
-			<item Command="Go To Next Change" Keycode="(AN)+" />
-			<item Command="Select Match" Keycode="(A)=" />
-			<item Command="Select Block" Keycode="(C)-" />
-			<item Command="Function Down" Keycode="(N)+" />
-			<item Command="Function Up" Keycode="(N)-" />
-			<item Command="Word Right" Keycode="(C)Right" />
-			<item Command="Word Left" Keycode="(C)Left" />
-			<item Command="Cursor Right" Keycode="(N)Right" />
-			<item Command="Cursor Right" Keycode="Right" />
-			<item Command="Cursor Left" Keycode="(N)Left" />
-			<item Command="Cursor Left" Keycode="Left" />
-			<item Command="Cursor Down" Keycode="(N)Down" />
-			<item Command="Cursor Down" Keycode="Down" />
-			<item Command="Cursor Up" Keycode="(N)Up" />
-			<item Command="Cursor Up" Keycode="Up" />
-			<item Command="Bottom Of Window" Keycode="(N)End" />
-			<item Command="End Of Line" Keycode="End" />
-			<item Command="Top Of Window" Keycode="(N)Home" />
-			<item Command="Beginning Of Line" Keycode="Home" />
-			<item Command="Bottom Of File" Keycode="(CN)End" />
-			<item Command="Bottom Of File" Keycode="(C)End" />
-			<item Command="Top Of File" Keycode="(CN)Home" />
-			<item Command="Top Of File" Keycode="(C)Home" />
-			<item Command="Scroll Right" Keycode="(A)Right" />
-			<item Command="Scroll Left" Keycode="(A)Left" />
-			<item Command="Scroll Line Down" Keycode="(A)Down" />
-			<item Command="Scroll Line Up" Keycode="(A)Up" />
-			<item Command="Scroll Half Page Up" Keycode="(N)/" />
-			<item Command="Scroll Half Page Up" Keycode="(CN)PgUp" />
-			<item Command="Scroll Half Page Up" Keycode="(C)PgUp" />
-			<item Command="Scroll Half Page Down" Keycode="(N)*" />
-			<item Command="Scroll Half Page Down" Keycode="(CN)PgDn" />
-			<item Command="Scroll Half Page Down" Keycode="(C)PgDn" />
-			<item Command="Page Down" Keycode="(N)PgDn" />
-			<item Command="Page Up" Keycode="(N)PgUp" />
-			<item Command="Select To End Of File" Keycode="(CS)End" />
-			<item Command="Select To Top Of File" Keycode="(CS)Home" />
-			<item Command="Select Page Up" Keycode="(SN)PgUp" />
-			<item Command="Select Page Up" Keycode="(S)PgUp" />
-			<item Command="Select Page Down" Keycode="(SN)PgDn" />
-			<item Command="Select Page Down" Keycode="(S)PgDn" />
-			<item Command="Select Line Down" Keycode="(S)Down" />
-			<item Command="Select Line Up" Keycode="(S)Up" />
-			<item Command="Select Char Right" Keycode="(S)Right" />
-			<item Command="Select Char Left" Keycode="(S)Left" />
-			<item Command="Select Word Right" Keycode="(CS)Right" />
-			<item Command="Select Word Left" Keycode="(CS)Left" />
-			<item Command="Select To Start Of Line" Keycode="(S)Home" />
-			<item Command="Select To End Of Line" Keycode="(S)End" />
-			<item Command="Activate Tools Menu" Keycode="(A)T" />
-			<item Command="Activate Work Menu" Keycode="(A)K" />
-			<item Command="Activate System Menu" Keycode="(A)Space" />
-			<item Command="Activate View Menu" Keycode="(A)V" />
-			<item Command="Activate Options Menu" Keycode="(A)O" />
-			<item Command="Activate Help Menu" Keycode="(A)H" />
-			<item Command="Activate Project Menu" Keycode="(A)P" />
-			<item Command="Activate Search Menu" Keycode="(A)S" />
-			<item Command="Select All" Keycode="(C)A" />
-			<item Command="Cut" Keycode="(S)Del" />
-			<item Command="Paste" Keycode="(S)Ins" />
-			<item Command="Paste" Keycode="(C)V" />
-			<item Command="Copy" Keycode="(C)C" />
-			<item Command="Cut" Keycode="(C)X" />
-			<item Command="Redo" Keycode="(C)Y" />
-			<item Command="Undo" Keycode="(A)BackSpace" />
-			<item Command="Undo" Keycode="(C)Z" />
-			<item Command="Zoom Window" Keycode="(C)F10" />
-			<item Command="Select Next Window" Keycode="(C)F6" />
-			<item Command="Close Window" Keycode="(C)F4" />
-			<item Command="Play Recording" Keycode="(C)F3" />
-			<item Command="Stop Recording" Keycode="(C)F2" />
-			<item Command="Start Recording" Keycode="(C)F1" />
-			<item Command="Show File Status" Keycode="(S)F10" />
-			<item Command="Activate Snippet Window" Keycode="(CA)S" />
-			<item Command="Select Next Snippet Placeholder" Keycode="(CS);" />
-			<item Command="Select Sentence" Keycode="(S)F7" />
-			<item Command="Select Line" Keycode="(S)F6" />
-			<item Command="Select Word" Keycode="(S)F5" />
-			<item Command="Search Forward for Selection" Keycode="(S)F4" />
-			<item Command="Search Backward for Selection" Keycode="(S)F3" />
-			<item Command="Select Next Window" Keycode="(S)F2" />
-			<item Command="Select Previous Window" Keycode="(S)F1" />
-			<item Command="Symbol Window" Keycode="(A)F8" />
-			<item Command="New Window" Keycode="(A)F5" />
-			<item Command="Exit" Keycode="(A)F4" />
-			<item Command="Mono Font View" Keycode="(A)F12" />
-			<item Command="Incremental Search..." Keycode="F12" />
-			<item Command="Full Screen" Keycode="F11" />
-			<item Command="Indent Right" Keycode="F10" />
-			<item Command="Indent Left" Keycode="F9" />
-			<item Command="Highlight Word" Keycode="F8" />
-			<item Command="Activate Project Symbol List" Keycode="F7" />
-			<item Command="Tile Two Windows" Keycode="F6" />
-			<item Command="Go To Line..." Keycode="F5" />
-			<item Command="Search Forward" Keycode="F4" />
-			<item Command="Search Backward" Keycode="F3" />
-			<item Command="Load Layout D" Keycode="(CS)F4" />
-			<item Command="Load Layout C" Keycode="(CS)F3" />
-			<item Command="Load Layout B" Keycode="(CS)F2" />
-			<item Command="Load Layout A" Keycode="(CS)F1" />
-			<item Command="Project Window" Keycode="(A)F9" />
-			<item Command="Relation Window" Keycode="(A)F10" />
-			<item Command="Vertical Scroll Bar " Keycode="(A)F7" />
-			<item Command="Go To Next Change" Keycode="(A)+" />
-			<item Command="Go To Previous Change" Keycode="(A)-" />
-			<item Command="Highlight Word" Keycode="(S)F8" />
-			<item Command="Symbol Info..." Keycode="(C)mouse(R+SEL)" />
-			<item Command="Function Down" Keycode="PgDn" />
-			<item Command="Function Up" Keycode="PgUp" />
-			<item Command="Search..." Keycode="(C)F" />
-			<item Command="Search Files..." Keycode="(A)F" />
-			<item Command="Go Back" Keycode="(A)F1" />
 			<item Command="Get_C_FileName" Keycode="(A)F3" Allocated="1" />
+			<item Command="Go Back" Keycode="(A)F1" />
+			<item Command="Search Files..." Keycode="(A)F" />
+			<item Command="Search..." Keycode="(C)F" />
+			<item Command="Function Up" Keycode="PgUp" />
+			<item Command="Function Down" Keycode="PgDn" />
+			<item Command="Highlight Word" Keycode="(S)F8" />
+			<item Command="Go To Previous Change" Keycode="(A)-" />
+			<item Command="Go To Next Change" Keycode="(A)+" />
+			<item Command="Vertical Scroll Bar " Keycode="(A)F7" />
+			<item Command="Relation Window" Keycode="(A)F10" />
+			<item Command="Project Window" Keycode="(A)F9" />
+			<item Command="Load Layout A" Keycode="(CS)F1" />
+			<item Command="Load Layout B" Keycode="(CS)F2" />
+			<item Command="Load Layout C" Keycode="(CS)F3" />
+			<item Command="Load Layout D" Keycode="(CS)F4" />
+			<item Command="Search Backward" Keycode="F3" />
+			<item Command="Search Forward" Keycode="F4" />
+			<item Command="Go To Line..." Keycode="F5" />
+			<item Command="Tile Two Windows" Keycode="F6" />
+			<item Command="Activate Project Symbol List" Keycode="F7" />
+			<item Command="Highlight Word" Keycode="F8" />
+			<item Command="Indent Left" Keycode="F9" />
+			<item Command="Indent Right" Keycode="F10" />
+			<item Command="Full Screen" Keycode="F11" />
+			<item Command="Incremental Search..." Keycode="F12" />
+			<item Command="Mono Font View" Keycode="(A)F12" />
+			<item Command="Exit" Keycode="(A)F4" />
+			<item Command="New Window" Keycode="(A)F5" />
+			<item Command="Symbol Window" Keycode="(A)F8" />
+			<item Command="Select Previous Window" Keycode="(S)F1" />
+			<item Command="Select Next Window" Keycode="(S)F2" />
+			<item Command="Search Backward for Selection" Keycode="(S)F3" />
+			<item Command="Search Forward for Selection" Keycode="(S)F4" />
+			<item Command="Select Word" Keycode="(S)F5" />
+			<item Command="Select Line" Keycode="(S)F6" />
+			<item Command="Select Sentence" Keycode="(S)F7" />
+			<item Command="Select Next Snippet Placeholder" Keycode="(CS);" />
+			<item Command="Activate Snippet Window" Keycode="(CA)S" />
+			<item Command="Show File Status" Keycode="(S)F10" />
+			<item Command="Start Recording" Keycode="(C)F1" />
+			<item Command="Stop Recording" Keycode="(C)F2" />
+			<item Command="Play Recording" Keycode="(C)F3" />
+			<item Command="Close Window" Keycode="(C)F4" />
+			<item Command="Select Next Window" Keycode="(C)F6" />
+			<item Command="Zoom Window" Keycode="(C)F10" />
+			<item Command="Undo" Keycode="(C)Z" />
+			<item Command="Undo" Keycode="(A)BackSpace" />
+			<item Command="Redo" Keycode="(C)Y" />
+			<item Command="Cut" Keycode="(C)X" />
+			<item Command="Copy" Keycode="(C)C" />
+			<item Command="Paste" Keycode="(C)V" />
+			<item Command="Paste" Keycode="(S)Ins" />
+			<item Command="Cut" Keycode="(S)Del" />
+			<item Command="Select All" Keycode="(C)A" />
+			<item Command="Activate Search Menu" Keycode="(A)S" />
+			<item Command="Activate Project Menu" Keycode="(A)P" />
+			<item Command="Activate Help Menu" Keycode="(A)H" />
+			<item Command="Activate Options Menu" Keycode="(A)O" />
+			<item Command="Activate View Menu" Keycode="(A)V" />
+			<item Command="Activate System Menu" Keycode="(A)Space" />
+			<item Command="Activate Work Menu" Keycode="(A)K" />
+			<item Command="Activate Tools Menu" Keycode="(A)T" />
+			<item Command="Select To End Of Line" Keycode="(S)End" />
+			<item Command="Select To Start Of Line" Keycode="(S)Home" />
+			<item Command="Select Word Left" Keycode="(CS)Left" />
+			<item Command="Select Word Right" Keycode="(CS)Right" />
+			<item Command="Select Char Left" Keycode="(S)Left" />
+			<item Command="Select Char Right" Keycode="(S)Right" />
+			<item Command="Select Line Up" Keycode="(S)Up" />
+			<item Command="Select Line Down" Keycode="(S)Down" />
+			<item Command="Select Page Down" Keycode="(S)PgDn" />
+			<item Command="Select Page Down" Keycode="(SN)PgDn" />
+			<item Command="Select Page Up" Keycode="(S)PgUp" />
+			<item Command="Select Page Up" Keycode="(SN)PgUp" />
+			<item Command="Select To Top Of File" Keycode="(CS)Home" />
+			<item Command="Select To End Of File" Keycode="(CS)End" />
+			<item Command="Page Up" Keycode="(N)PgUp" />
+			<item Command="Page Down" Keycode="(N)PgDn" />
+			<item Command="Scroll Half Page Down" Keycode="(C)PgDn" />
+			<item Command="Scroll Half Page Down" Keycode="(CN)PgDn" />
+			<item Command="Scroll Half Page Down" Keycode="(N)*" />
+			<item Command="Scroll Half Page Up" Keycode="(C)PgUp" />
+			<item Command="Scroll Half Page Up" Keycode="(CN)PgUp" />
+			<item Command="Scroll Half Page Up" Keycode="(N)/" />
+			<item Command="Scroll Line Up" Keycode="(A)Up" />
+			<item Command="Scroll Line Down" Keycode="(A)Down" />
+			<item Command="Scroll Left" Keycode="(A)Left" />
+			<item Command="Scroll Right" Keycode="(A)Right" />
+			<item Command="Top Of File" Keycode="(C)Home" />
+			<item Command="Top Of File" Keycode="(CN)Home" />
+			<item Command="Bottom Of File" Keycode="(C)End" />
+			<item Command="Bottom Of File" Keycode="(CN)End" />
+			<item Command="Beginning Of Line" Keycode="Home" />
+			<item Command="Top Of Window" Keycode="(N)Home" />
+			<item Command="End Of Line" Keycode="End" />
+			<item Command="Bottom Of Window" Keycode="(N)End" />
+			<item Command="Cursor Up" Keycode="Up" />
+			<item Command="Cursor Up" Keycode="(N)Up" />
+			<item Command="Cursor Down" Keycode="Down" />
+			<item Command="Cursor Down" Keycode="(N)Down" />
+			<item Command="Cursor Left" Keycode="Left" />
+			<item Command="Cursor Left" Keycode="(N)Left" />
+			<item Command="Cursor Right" Keycode="Right" />
+			<item Command="Cursor Right" Keycode="(N)Right" />
+			<item Command="Word Left" Keycode="(C)Left" />
+			<item Command="Word Right" Keycode="(C)Right" />
+			<item Command="Function Up" Keycode="(N)-" />
+			<item Command="Function Down" Keycode="(N)+" />
+			<item Command="Select Block" Keycode="(C)-" />
+			<item Command="Select Match" Keycode="(A)=" />
+			<item Command="Go To Next Change" Keycode="(AN)+" />
+			<item Command="Go To Previous Change" Keycode="(AN)-" />
+			<item Command="Jump To Match" Keycode="(A)]" />
+			<item Command="Paren Left" Keycode="(C)9" />
+			<item Command="Paren Right" Keycode="(C)0" />
+			<item Command="Block Up" Keycode="(CS)[" />
+			<item Command="Block Down" Keycode="(CS)]" />
+			<item Command="Select Sentence" Keycode="(C)." />
+			<item Command="End Of Selection" Keycode="(CA)]" />
+			<item Command="Beginning Of Selection" Keycode="(CA)[" />
+			<item Command="Go Back Toggle" Keycode="(A)M" />
+			<item Command="Go Back" Keycode="(A)," />
+			<item Command="Go Forward" Keycode="(A)." />
+			<item Command="Go Back" Keycode="mouse(T1)" />
+			<item Command="Go Forward" Keycode="mouse(T2)" />
+			<item Command="Repeat Typing" Keycode="(C)\" />
+			<item Command="New" Keycode="(C)N" />
+			<item Command="Open..." Keycode="(C)O" />
+			<item Command="Close" Keycode="(C)W" />
+			<item Command="Close All" Keycode="(CS)W" />
+			<item Command="Next File..." Keycode="(CS)N" />
+			<item Command="Save" Keycode="(C)S" />
+			<item Command="Save All" Keycode="(CA)A" />
+			<item Command="Save As..." Keycode="(CS)S" />
+			<item Command="Reload File" Keycode="(CS)O" />
+			<item Command="Activate Project Symbol List" Keycode="(A)G" />
+			<item Command="Activate Symbol Window" Keycode="(A)L" />
+			<item Command="Renumber..." Keycode="(C)R" />
+			<item Command="Search Files..." Keycode="(CS)F" />
+			<item Command="Lookup References..." Keycode="(C)/" />
+			<item Command="Search Web..." Keycode="(CA)W" />
+			<item Command="Activate Search Bar" Keycode="(AS)F" />
+			<item Command="Activate Project Search Bar" Keycode="(AS)P" />
+			<item Command="Replace..." Keycode="(C)H" />
+			<item Command="Replace Files..." Keycode="(CS)H" />
+			<item Command="Go To Line..." Keycode="(C)G" />
+			<item Command="Jump To Link" Keycode="(C)L" />
+			<item Command="Go To Next Link" Keycode="(S)F9" />
+			<item Command="Go To First Link" Keycode="(CS)L" />
+			<item Command="Jump To Definition" Keycode="(C)=" />
+			<item Command="Jump To Prototype..." Keycode="(A)-" />
+			<item Command="Jump To Base Type" Keycode="(A)0" />
+			<item Command="Jump To Caller" Keycode="(CA)C" />
+			<item Command="Toggle Insert Mode" Keycode="Ins" />
+			<item Command="Bookmark..." Keycode="(C)M" />
+			<item Command="Selection History..." Keycode="(CS)M" />
+			<item Command="Symbol Info..." Keycode="(A)/" />
+			<item Command="Last Window" Keycode="(C)Tab" />
+			<item Command="Last Window" Keycode="(CS)Tab" />
+			<item Command="File Type Options..." Keycode="(A)Y" />
+			<item Command="Smart Rename..." Keycode="(C)&apos;" />
+			<item Command="Complete Snippet" Keycode="(C)E" />
+			<item Command="Complete Symbol" Keycode="(C)8" />
+			<item Command="Incremental Search..." Keycode="(C)," />
+			<item Command="New Project..." Keycode="(AS)N" />
+			<item Command="Open Project..." Keycode="(AS)P" />
+			<item Command="Close Project" Keycode="(AS)W" />
+			<item Command="Add File..." Keycode="(AS)A" />
+			<item Command="Remove File..." Keycode="(AS)R" />
+			<item Command="Synchronize Files..." Keycode="(AS)S" />
+			<item Command="Backspace" Keycode="BackSpace" />
+			<item Command="Backspace" Keycode="(S)BackSpace" />
+			<item Command="Delete Character" Keycode="Del" />
+			<item Command="Delete Character" Keycode="(N)Del" />
+			<item Command="Copy Line" Keycode="(C)K" />
+			<item Command="Copy Line Right" Keycode="(CS)K" />
+			<item Command="Paste Line" Keycode="(C)P" />
+			<item Command="Cut Line" Keycode="(C)U" />
+			<item Command="Insert Line" Keycode="(C)I" />
+			<item Command="Cut Line Right" Keycode="(C);" />
+			<item Command="Cut Word" Keycode="(C)," />
+			<item Command="Insert Line Before Next" Keycode="(C)Space" />
+			<item Command="Join Lines" Keycode="(C)J" />
+			<item Command="Cut To Clip..." Keycode="(CS)X" />
+			<item Command="Copy To Clip..." Keycode="(C)Del" />
+			<item Command="Paste From Clip..." Keycode="(C)Ins" />
+			<item Command="Restore Lines" Keycode="(A)D" />
+			<item Command="Drag Line Up" Keycode="(C)Up" />
+			<item Command="Drag Line Down" Keycode="(C)Down" />
+			<item Command="Redraw Screen" Keycode="(CA)Space" />
+			<item Command="Copy" Keycode="mouse(LR)" />
+			<item Command="Select To" Keycode="(S)mouse(L)" />
+			<item Command="Make Column Selection" Keycode="(A)mouse(L)" />
+			<item Command="Enter" Keycode="Enter" />
+			<item Command="Enter" Keycode="Enter" />
+			<item Command="Enter" Keycode="(N)Enter" />
+			<item Command="Tab" Keycode="Tab" />
+			<item Command="Back Tab" Keycode="(S)Tab" />
+			<item Command="Simple Tab" Keycode="(CA)Tab" />
+			<item Command="AddMacroComment" Keycode="(A)4" Allocated="1" />
+			<item Command="BlockComment" Keycode="(A)Q" Allocated="1" />
+			<item Command="ExpandBraceLarge" Keycode="(A)[" Allocated="1" />
+			<item Command="FunctionHeaderCreate" Keycode="(A)C" Allocated="1" />
+			<item Command="GetFullDirName" Keycode="(A)1" Allocated="1" />
+			<item Command="GetFullFileName" Keycode="(A)2" Allocated="1" />
+			<item Command="InsIfdef" Keycode="(A)W" Allocated="1" />
+			<item Command="InsIfndef" Keycode="(A)E" Allocated="1" />
+			<item Command="MultiLineComment" Keycode="(A)3" Allocated="1" />
+			<item Command="Insert_debug" Keycode="(A)`" Allocated="1" />
+			<item Command="Auto_printf_var" Keycode="(C)B" Allocated="1" />
+			<item Command="Vertical Scroll Bar " Keycode="(A)F6" />
+			<item Command="AutoConvertUpperOrLow" Keycode="(A)" Allocated="1" />
+			<item Command="Go To Next Link" Keycode="F2" />
+			<item Command="Go To Previous Link" Keycode="F1" />
+			<item Command="MakeComment" Keycode="(C)F11" Allocated="1" />
+			<item Command="Go Forward" Keycode="(A)F2" />
+			<item Command="AutoExpand" Keycode="(C)Enter" Allocated="1" />
+			<item Command="Symbol Info..." Keycode="(C)mouse(R+SEL)" />
 		</Main>
 	</Keymaps>
 	<CustomCommands>
@@ -1202,7 +1202,7 @@
 		<Type
 			Name="Default"
 			FileFilter=""
-			Language="ANSI C Language"
+			Language="None"
 			ParsePattern=""
 			WordWrap="0"
 			ExpandTabs="0"
@@ -1213,7 +1213,7 @@
 			LineUpWhiteSpace="1"
 			VisibleTabs="0"
 			VisibleSpaces="0"
-			ShowLineNumbers="1"
+			ShowLineNumbers="0"
 			ShowRightMargin="0"
 			ShowPageBreaks="0"
 			UseSymbolPane="0"
@@ -1224,15 +1224,15 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="4"
 			AutoInsertPairs="0"
 			ParsePatternSymbolType=""
 			AutoIndentMode="1"
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Custom Command Output"
@@ -1266,8 +1266,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Search Results"
@@ -1294,31 +1294,31 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="4"
 			AutoInsertPairs="0"
 			ParsePatternSymbolType=""
 			AutoIndentMode="1"
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="C Source File"
-			FileFilter="*.c;*.h"
+			FileFilter=""
 			Language="ANSI C Language"
 			ParsePattern=""
 			WordWrap="0"
-			ExpandTabs="1"
+			ExpandTabs="0"
 			EnterKeyIsEOL="1"
 			StatusbarMode="0"
 			AddToProject="1"
-			EmulateScreenFontsForPrinting="0"
+			EmulateScreenFontsForPrinting="1"
 			LineUpWhiteSpace="1"
 			VisibleTabs="0"
 			VisibleSpaces="0"
-			ShowLineNumbers="1"
+			ShowLineNumbers="0"
 			ShowRightMargin="0"
 			ShowPageBreaks="0"
 			UseSymbolPane="1"
@@ -1329,19 +1329,19 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="4"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType=""
-			AutoIndentMode="1"
+			AutoIndentMode="2"
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="C/C++ Source File"
-			FileFilter="*.c;*.h;*.cpp;*.hpp;*.cxx;*.hxx;Makefiel;*.txt;*.*"
+			FileFilter="*.c;*.h;*.cpp;*.hpp;*.cxx;*.hxx;*.hh"
 			Language="C/C++ Language"
 			ParsePattern=""
 			WordWrap="0"
@@ -1353,7 +1353,7 @@
 			LineUpWhiteSpace="1"
 			VisibleTabs="0"
 			VisibleSpaces="0"
-			ShowLineNumbers="1"
+			ShowLineNumbers="0"
 			ShowRightMargin="0"
 			ShowPageBreaks="0"
 			UseSymbolPane="1"
@@ -1364,15 +1364,15 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="4"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType=""
 			AutoIndentMode="2"
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="C# Source File"
@@ -1406,12 +1406,12 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Objective-C File"
-			FileFilter="*.m"
+			FileFilter="*.m;*.mm"
 			Language="Objective-C"
 			ParsePattern=""
 			WordWrap="0"
@@ -1441,8 +1441,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Python File"
@@ -1476,8 +1476,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Interface Definition File"
@@ -1511,8 +1511,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="x86 Asm Source File"
@@ -1546,8 +1546,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Java Source File"
@@ -1581,8 +1581,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="JavaScript File"
@@ -1616,8 +1616,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Perl Source File"
@@ -1651,8 +1651,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="PHP File"
@@ -1686,8 +1686,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Active Server Page"
@@ -1721,8 +1721,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Visual Basic Source File"
@@ -1756,8 +1756,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Batch File"
@@ -1784,15 +1784,15 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="4"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType="Custom Tag"
 			AutoIndentMode="1"
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="INI File"
@@ -1826,8 +1826,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Link Def File"
@@ -1861,8 +1861,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Make File"
@@ -1878,7 +1878,7 @@
 			LineUpWhiteSpace="1"
 			VisibleTabs="0"
 			VisibleSpaces="0"
-			ShowLineNumbers="1"
+			ShowLineNumbers="0"
 			ShowRightMargin="0"
 			ShowPageBreaks="0"
 			UseSymbolPane="1"
@@ -1889,15 +1889,15 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="1"
+			IndentWidth="4"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType=""
 			AutoIndentMode="1"
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="JSON File"
@@ -1931,8 +1931,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Resource File"
@@ -1966,8 +1966,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Source Insight Macro File"
@@ -1983,7 +1983,7 @@
 			LineUpWhiteSpace="1"
 			VisibleTabs="0"
 			VisibleSpaces="0"
-			ShowLineNumbers="1"
+			ShowLineNumbers="0"
 			ShowRightMargin="0"
 			ShowPageBreaks="0"
 			UseSymbolPane="1"
@@ -2001,8 +2001,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Plain Text"
@@ -2036,8 +2036,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="HTML File"
@@ -2071,8 +2071,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Cascading Style Sheet"
@@ -2106,8 +2106,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Output File"
@@ -2141,8 +2141,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="Token Macro File"
@@ -2176,8 +2176,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="XML File"
@@ -2211,8 +2211,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="VHDL File"
@@ -2246,8 +2246,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="SI Tags File"
@@ -2281,8 +2281,8 @@
 			IndentOpenBrace="1"
 			IndentCloseBrace="1"
 			>
-			<ScreenFont name="DejaVu Sans Mono" psize="11" fpfamily="49" charset="0" />
-			<PrinterFont name="Courier New" psize="9" fpfamily="49" charset="0" />
+			<ScreenFont name="Courier New" psize="8" fpfamily="0" charset="0" />
+			<PrinterFont name="Courier New" psize="8" fpfamily="0" charset="0" />
 		</Type>
 		<Type
 			Name="LUC"
@@ -2356,7 +2356,7 @@
 		</Type>
 	</FileTypes>
 	<Styles
-		StyleAppVer="4.00.0084"
+		StyleAppVer="4.00.0093"
 		>
 		<Style Name="Default Text" />
 		<Style
@@ -2368,9 +2368,9 @@
 			FontCharset="0"
 			/>
 		<Style Name="Operator" TextColor="#d4d4d4" />
-		<Style Name="Delimiter" KeepWithNextLine="1" TextColor="#d4d4d4" />
+		<Style Name="Delimiter" TextColor="#d4d4d4" />
 		<Style Name="Comment" TextColor="#608b4e" />
-		<Style Name="String" FixedWhiteSpace="0" TextColor="#ce9178" />
+		<Style Name="String" FixedWhiteSpace="0" TextColor="#dfb3b0" />
 		<Style Name="Keyword" TextColor="#569cd6" />
 		<Style Name="Control" Bold="1" TextColor="#c586a8" />
 		<Style Name="Special" Bold="1" Italic="1" TextColor="#9eff97" />
@@ -2488,16 +2488,25 @@
 		<Style Name="Declare Resource" ParentStyle="Declaration" />
 		<Style Name="File" ParentStyle="Declaration" />
 		<Style Name="Declare Custom Tag" ParentStyle="Declaration" />
-		<Style Name="Ref to Func" Bold="1" ParentStyle="Reference" />
+		<Style
+			Name="Ref to Func"
+			Bold="1"
+			TextColor="#91eecf"
+			ParentStyle="Reference"
+			/>
 		<Style Name="Ref to Macro" ParentStyle="Ref to Func" />
-		<Style Name="Ref to Struct" ParentStyle="Reference" />
+		<Style
+			Name="Ref to Struct"
+			TextColor="#00d5d5"
+			ParentStyle="Reference"
+			/>
 		<Style Name="Ref to Union" ParentStyle="Ref to Struct" />
 		<Style Name="Ref to Typedef" ParentStyle="Ref to Struct" />
 		<Style
 			Name="Ref to Global Var"
 			Bold="1"
 			Italic="1"
-			TextColor="#b96d22"
+			TextColor="#61a714"
 			ParentStyle="Reference"
 			/>
 		<Style
@@ -2616,7 +2625,7 @@
 			/>
 		<Style
 			Name="Comment Single Line"
-			TextColor="#608b4e"
+			TextColor="#47673a"
 			ParentStyle="Comment"
 			/>
 		<Style Name="Comment Multi Line" ParentStyle="Comment" />
@@ -2891,6 +2900,10 @@
 				<Item Keyword="wchar_t" Style="Keyword" />
 				<Item Keyword="while" Style="Control" />
 				<Item Keyword="WORD" Style="Keyword" />
+				<Item Keyword="int8_t" Style="Keyword" />
+				<Item Keyword="int16_t" Style="Keyword" />
+				<Item Keyword="int32_t" Style="Keyword" />
+				<Item Keyword="int64_t" Style="Keyword" />
 			</Keywords>
 		</Language>
 		<Language
@@ -4625,6 +4638,10 @@
 				<Item Keyword="wchar_t" Style="Keyword" />
 				<Item Keyword="while" Style="Control" />
 				<Item Keyword="WORD" Style="Keyword" />
+				<Item Keyword="int8_t" Style="Keyword" />
+				<Item Keyword="int16_t" Style="Keyword" />
+				<Item Keyword="int32_t" Style="Keyword" />
+				<Item Keyword="int64_t" Style="Keyword" />
 			</Keywords>
 		</Language>
 		<Language
@@ -8266,6 +8283,7 @@
 			ParseCOMMacros="1"
 			IgnoreNamespaces="0"
 			IgnoreJavaPackages="1"
+			SupportMicrochipC="0"
 			DefaultHTMLScriptLanguage="JavaScript"
 			/>
 	</ParsingOptions>
@@ -8281,7 +8299,7 @@
 				RegexType="Source Insight"
 				IgnoreCase="0"
 				UseRegexp="0"
-				WrapAround="1"
+				WrapAround="0"
 				SelectMatch="0"
 				FindNonMatch="0"
 				FindOnePerLine="0"
@@ -8304,10 +8322,10 @@
 				ResultNormalizeFileNames="1"
 				/>
 			<LookupReferences
-				SearchMethod="Look Up Reference"
+				SearchMethod="Simple String"
 				RegexType="Source Insight"
 				IgnoreCase="0"
-				FindWholeWords="1"
+				FindWholeWords="0"
 				SkipComments="0"
 				OnlyComments="0"
 				SkipDeadCode="0"
@@ -8547,7 +8565,7 @@
 		</SymbolTypes>
 	</ProjectReport>
 	<SymbolPane
-		Width="297"
+		Width="459"
 		TextColor="#d4d4d4"
 		BackColor="#1e1e1e"
 		ShowChanges="1"
@@ -8865,6 +8883,7 @@
 		ViewLineNumbers="1"
 		ShowOverview="0"
 		PercentScale="110"
+		ShowBaseStructure="1"
 		BackColor="#1e1e1e"
 		>
 		<ListDisplay
@@ -8985,20 +9004,16 @@
 			<Type Name="Enum Constant" />
 			<Type Name="Function Prototype" />
 			<Type Name="#-Directive" />
-			<Type Name="Search Result" />
 			<Type Name="Label" />
 			<Type Name="Data Member" />
 			<Type Name="Interface" />
 			<Type Name="Resource" />
-			<Type Name="File" />
-			<Type Name="Directory" />
 			<Type Name="Function Template" />
 			<Type Name="Class Template" />
 			<Type Name="Package" />
 			<Type Name="Namespace" />
 			<Type Name="Token Macro" />
 			<Type Name="Code Block" />
-			<Type Name="Parameter" />
 			<Type Name="Parsing Error" />
 			<Type Name="HTML or XML Element" />
 			<Type Name="HTML Title" />
@@ -9006,8 +9021,6 @@
 			<Type Name="IDL Module" />
 			<Type Name="IDL Library" />
 			<Type Name="IDL Interface" />
-			<Type Name="C++ Template" />
-			<Type Name="Template Parameter" />
 			<Type Name="CSS Rule Selector" />
 			<Type Name="C# Class Property" />
 			<Type Name="C# Indexer" />
@@ -9017,15 +9030,9 @@
 			<Type Name="VHDL Component" />
 			<Type Name="VHDL Process" />
 			<Type Name="VHDL Configuration" />
-			<Type Name="Type Reference" />
 			<Type Name="External Variable" />
 			<Type Name="Alias" />
-			<Type Name="Alias Target" />
-			<Type Name="Type Parameter" />
 			<Type Name="Macro Event" />
-			<Type Name="Captured Variable" />
-			<Type Name="Clip" />
-			<Type Name="Snippet" />
 			<Type Name="Editor Macro Function" />
 		</SymbolTypes>
 		<Sort SortType="6" Invert="0" />
@@ -9037,7 +9044,7 @@
 		</ListDisplay>
 	</ProjectSymbolWindow>
 	<ProjectSymbolTypeWindow
-		ShowMetrics="0"
+		ShowMetrics="1"
 		ShowFile="1"
 		Metric="Lines of Code"
 		>
