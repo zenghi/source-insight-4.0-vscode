@@ -8,4 +8,4 @@ Screen capture:
 
 add some hotkey
 
-
+Replace all files, then open the base project and then rebuild project, select Re-Parse all source files
